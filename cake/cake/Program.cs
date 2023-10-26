@@ -9,7 +9,7 @@ namespace CakeOrder
 {
     public class OrderApp
     {
-        public static string path = "C:\\Users\\Olivka\\Desktop\\Order.txt";
+        public static string path = "C:\\Users\\User\\Desktop\\cakes.txt"; 
         public static int Price = 0;
         public static int SelectedMenuIndex = -1;
         public static bool Active = false;
