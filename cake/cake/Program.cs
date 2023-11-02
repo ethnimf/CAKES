@@ -31,8 +31,8 @@ namespace CakeOrder
             {"Форма торта", new List<Settings>{new Settings("Куб", 100), new Settings("Ромб", 200), new Settings("Круг", 300), new Settings("Триугольник", 400) } },
             {"Кол-во коржей", new List<Settings> { new Settings("Один ярус", 100), new Settings("Два яруса", 200), new Settings("Три яруса", 300), new Settings("Четыре яруса", 400) } },
             {"Вкус коржей", new List<Settings> { new Settings("Бисквитный", 100), new Settings("Медовый", 200), new Settings("Песочный", 300), new Settings("Шоколадный", 400) } },
-            {"Размер торта", new List<Settings>{ new Settings("Куб", 100), new Settings("Ромб", 200), new Settings("Круг", 300), new Settings("Триугольник", 400) } },
-            {"Глазурь торта", new List<Settings>{ new Settings("Куб", 100), new Settings("Ромб", 200), new Settings("Круг", 300), new Settings("Триугольник", 400) } },
+            {"Размер торта", new List<Settings>{ new Settings("Большой", 100), new Settings("Средний", 200), new Settings("Маленький", 300), new Settings("Бенто", 400) } },
+            {"Глазурь торта", new List<Settings>{ new Settings("Кокосовая", 100), new Settings("Шоколадная", 200), new Settings("Ванильная", 300), new Settings("Манго", 400) } },
         };
 
         static void Main()
@@ -171,7 +171,6 @@ namespace CakeOrder
                     break;
             }
         }
-        // Конструкция для позиций настроек
         public class Settings
         {
             public string NameItem { get; set; }
